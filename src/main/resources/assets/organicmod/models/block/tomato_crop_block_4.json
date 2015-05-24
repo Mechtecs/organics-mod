@@ -1,6 +1,6 @@
 {
     "parent": "organicmod:block/tomato_crop",
     "textures": {
-        "all": "organicmod:blocks/tomato_age_4"
+        "crop": "organicmod:blocks/tomato_age_4"
     }
 }
