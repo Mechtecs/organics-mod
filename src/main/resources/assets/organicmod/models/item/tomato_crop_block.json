@@ -1,5 +1,5 @@
 {
-    "parent": "organicsmod:block/tomatoCropB",
+    "parent": "organicmod:block/tomato_crop_block",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

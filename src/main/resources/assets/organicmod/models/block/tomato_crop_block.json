@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "organicsmod:blocks/tomatoCropB"
+        "all": "organicmod:blocks/tomato_crop_block"
     }
 }

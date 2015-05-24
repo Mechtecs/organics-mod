@@ -1,3 +1,4 @@
+/src/main/resources/assets/models
 bin/
 build/
 eclipse/
@@ -16,7 +17,7 @@ run/
 mode
 .classpath
 .project
-/models
+src/main/resources/models
 # Idea Stuff #
 *.iml
 *.ipr

@@ -1,7 +1,7 @@
 {
-    "parent": "organicsmod:builtin/generated",
+    "parent": "builtin/generated",
     "textures": {
-        "layer0": "organicsmod:items/tomatoCrop"
+        "layer0": "organicmod:items/tomato_seeds"
     },
     "display": {
         "thirdperson": {
