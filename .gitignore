@@ -20,4 +20,6 @@ run/
 *.iml
 *.ipr
 *.iws
+
+#Exclude temporary editing files
 *~
