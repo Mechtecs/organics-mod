@@ -9,6 +9,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSeeds;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.gui.MinecraftServerGui;
+import net.minecraftforge.client.MinecraftForgeClient;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -54,8 +58,8 @@ public class organicsmod
     	GameRegistry.registerBlock(tomatoCropB, tomatoCropB.getUnlocalizedName());
     	GameRegistry.registerItem(tomatoSeeds, tomatoSeeds.getUnlocalizedName());
     	
-    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(tomatoCrop, 0, new ModelResourceLocation("organicsmod:item.tomatoCrop","inventory"));
-    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(tomatoSeeds, 0, new ModelResourceLocation("organicsmod:item.tomatoSeeds","inventory"));
+    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(tomatoCrop, 0, new ModelResourceLocation("organicsmod:tomatoCrop","inventory"));
+    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(tomatoSeeds, 0, new ModelResourceLocation("organicsmod:tomatoSeeds","inventory"));
     	
     }
         
