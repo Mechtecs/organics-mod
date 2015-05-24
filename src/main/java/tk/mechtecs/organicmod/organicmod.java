@@ -50,20 +50,20 @@ public class organicmod
     {
     	tomato_crop = new tomato_crop();
     	tomato_crop_block = new tomato_crop_block();
-    	tomato_seeds = new ItemSeeds(tomato_crop_block, Blocks.farmland).setUnlocalizedName("tomato_seeds").setCreativeTab(CreativeTabs.tabAllSearch);
+    	tomato_seeds = new ItemSeeds(tomato_crop_block, Blocks.farmland).setUnlocalizedName("tomatoSeeds").setCreativeTab(CreativeTabs.tabAllSearch);
     	
-    	GameRegistry.registerItem(tomato_crop, tomato_crop.getUnlocalizedName());
-    	GameRegistry.registerItem(tomato_seeds, tomato_seeds.getUnlocalizedName());
+    	GameRegistry.registerItem(tomato_crop, "tomato_crop");
+    	GameRegistry.registerItem(tomato_seeds, "tomato_seeds");
     	
-    	GameRegistry.registerBlock(tomato_crop_block, tomato_crop_block.getUnlocalizedName());
+    	GameRegistry.registerBlock(tomato_crop_block, "tomato_crop_block");
     	
     	
     	if(event.getSide() == Side.CLIENT)
     	{
     	    	RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
     	    
-    	    	renderItem.getItemModelMesher().register(tomato_crop, 0, new ModelResourceLocation(this.MODID+":"+tomato_crop.getUnlocalizedName(), "inventory"));
-    	    	renderItem.getItemModelMesher().register(tomato_seeds, 0, new ModelResourceLocation(this.MODID+":"+tomato_seeds.getUnlocalizedName(), "inventory"));
+    	    	renderItem.getItemModelMesher().register(tomato_crop, 0, new ModelResourceLocation(this.MODID+":"+"tomato_crop", "inventory"));
+    	    	renderItem.getItemModelMesher().register(tomato_seeds, 0, new ModelResourceLocation(this.MODID+":"+"tomato_seeds", "inventory"));
     	}
     }
     

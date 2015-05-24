@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 public class tomato_crop_block extends BlockCrops {
 	
 	public tomato_crop_block() {
-		this.setUnlocalizedName("tomato_crop_block");
+		this.setUnlocalizedName("tomatoCropBlock");
 		this.setCreativeTab(CreativeTabs.tabAllSearch);
 	}
 	

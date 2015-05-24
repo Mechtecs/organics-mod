@@ -1,3 +1,3 @@
-item.tomato_seeds.name=Tomato Crops
-item.tomato_crop.name=Tomato
-tomato_crop_block=Tomato Flower (DEV!)
+item.tomatoSeeds.name=Tomato Crops
+item.tomatoCrop.name=Tomato
+item.tomatoCropBlock.name=Tomato Flower (DEV!)
