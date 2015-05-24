@@ -8,14 +8,15 @@ run/
 
 *.class
 *.bat
+*.d
 
 # Package Files #
 *.war
 *.ear
-
+mode
 .classpath
 .project
-
+/models
 # Idea Stuff #
 *.iml
 *.ipr

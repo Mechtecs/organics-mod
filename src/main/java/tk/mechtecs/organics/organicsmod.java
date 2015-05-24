@@ -2,6 +2,9 @@ package tk.mechtecs.organics;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -21,8 +24,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.registry.LanguageRegistry;
-@Mod(modid = OrganicsMod.MODID, version = OrganicsMod.VERSION, name=OrganicsMod.MODNAME)
-public class OrganicsMod
+@Mod(modid = organicsmod.MODID, version = organicsmod.VERSION, name=organicsmod.MODNAME)
+public class organicsmod
 {
     public static final String MODID = "organicsmod";
     public static final String MODNAME = "Organics Mod";
@@ -43,14 +46,16 @@ public class OrganicsMod
     @EventHandler
     public void load(FMLInitializationEvent event)
     {
-    	tomatoCrop = new Item().setUnlocalizedName("tomatoCrop");
-    	tomatoCropB = new tomatoCrop().setUnlocalizedName("tomatoCropB");
+    	tomatoCrop = new tomatoCrop().setUnlocalizedName("tomatoCrop");
+    	tomatoCropB = new tomatoCropB().setUnlocalizedName("tomatoCropB");
     	tomatoSeeds = new ItemSeeds(tomatoCropB, Blocks.farmland).setCreativeTab(CreativeTabs.tabMisc).setUnlocalizedName("tomatoSeeds");
-    	
     	
     	GameRegistry.registerItem(tomatoCrop, tomatoCrop.getUnlocalizedName());
     	GameRegistry.registerBlock(tomatoCropB, tomatoCropB.getUnlocalizedName());
     	GameRegistry.registerItem(tomatoSeeds, tomatoSeeds.getUnlocalizedName());
+    	
+    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(tomatoCrop, 0, new ModelResourceLocation("organicsmod:item.tomatoCrop","inventory"));
+    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(tomatoSeeds, 0, new ModelResourceLocation("organicsmod:item.tomatoSeeds","inventory"));
     	
     }
         
