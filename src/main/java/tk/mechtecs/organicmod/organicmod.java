@@ -9,6 +9,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSeeds;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -57,6 +59,7 @@ public class organicmod
     	
     	GameRegistry.registerBlock(tomato_crop_block, "tomato_crop_block");
     	
+    	MinecraftForge.addGrassSeed(new ItemStack(tomato_seeds), 10);
     	
     	if(event.getSide() == Side.CLIENT)
     	{
