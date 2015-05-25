@@ -1,3 +1,33 @@
+########
+#Blocks#
+########
+
+
+#######
+#Items#
+#######
 item.tomatoSeeds.name=Tomaten Samen
 item.tomatoCrop.name=Tomate
+
+item.papricaGCrop.name=Gruene Paprika
+item.papricaRCrop.name=Rote Paprika
+item.papricaYCrop.name=Gelbe Paprika
+
+item.papricaGSeeds.name=Gruene Paprika Samen
+item.papricaRSeeds.name=Rote Paprika Samen
+item.papricaYSeeds.name=Gelbe Paprika Samen
+
+#######
+#Tiles#
+#######
 tile.tomatoCropBlock.name=Tomaten Pflanze (DEV!)
+tile.papricaGCropBlock.name=Gruene Paprika Pflanze (DEV!)
+tile.papricaRCropBlock.name=Rote Paprika Pflanze (DEV!)
+tile.papricaYCropBlock.name=Gelbe Paprika Pflanze (DEV!)
+
+
+
+############
+#itemGroups#
+############
+itemGroup.organicmod:general=OrganicMOD! :)

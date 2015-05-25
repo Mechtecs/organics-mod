@@ -1,3 +1,33 @@
-item.tomatoSeeds.name=Tomato Crops
+########
+#Blocks#
+########
+
+
+#######
+#Items#
+#######
+item.tomatoSeeds.name=Tomato seeds
 item.tomatoCrop.name=Tomato
-tile.tomatoCropBlock.name=Tomato Flower (DEV!)
+
+item.papricaGCrop.name=Green paprica
+item.papricaRCrop.name=Red paprica
+item.papricaYCrop.name=Yellow paprica
+
+item.papricaGSeeds.name=Green paprica seeds
+item.papricaRSeeds.name=Red paprica seeds
+item.papricaYSeeds.name=Yellow paprica seeds
+
+#######
+#Tiles#
+#######
+tile.tomatoCropBlock.name=Tomato plant (DEV!)
+tile.papricaGCropBlock.name=Green paprica plant (DEV!)
+tile.papricaRCropBlock.name=Red paprica plant (DEV!)
+tile.papricaYCropBlock.name=Yellow paprica plant (DEV!)
+
+
+
+############
+#itemGroups#
+############
+itemGroup.organicmod:general=OrganicMOD! :)

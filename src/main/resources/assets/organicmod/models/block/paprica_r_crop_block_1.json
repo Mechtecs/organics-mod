@@ -1,6 +1,6 @@
 {
     "parent": "organicmod:block/crop_generic",
     "textures": {
-        "crop": "organicmod:blocks/tomato_age_2"
+        "crop": "organicmod:blocks/paprica_r_age_1"
     }
 }

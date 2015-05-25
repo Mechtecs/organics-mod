@@ -1,5 +1,5 @@
 {
-    "parent": "organicmod:block/tomato_crop",
+    "parent": "organicmod:block/crop_generic",
     "textures": {
         "crop": "organicmod:blocks/tomato_age_1"
     }
