@@ -1,5 +1,5 @@
 {
-    "parent": "organicmod:block/paprica_g_crop_block",
+    "parent": "organicmod:block/paprica_g_block",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
