@@ -1,15 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "organicmod",
+  "name": "Organics Mod",
+  "description": "Adds vegetables like tomatoes!",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "url": "mechtecs.tk",
+  "updateUrl": "mechtecs.tk",
+  "authorList": ["mixixp61"],
+  "credits": "Credits go to Mechtecs",
+  "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
 }
